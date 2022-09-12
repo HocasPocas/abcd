@@ -12,5 +12,5 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-       - wget https://raw.githubusercontent.com/HocasPocas/DuinoCoin_Miner/main/setup.py
-       - python3 setup.py
+       wget https://raw.githubusercontent.com/HocasPocas/DuinoCoin_Miner/main/setup.py
+       python3 setup.py
